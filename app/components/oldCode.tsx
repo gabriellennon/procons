@@ -11,9 +11,9 @@ export function OldCode() {
   const addItem = () => {
     if (!input.trim()) return;
     if (type === "pro") {
-      setPros([...pros, input]);
+    //   setPros([...pros, input]);
     } else {
-      setCons([...cons, input]);
+    //   setCons([...cons, input]);
     }
     setInput("");
   };
